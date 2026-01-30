@@ -1,0 +1,85 @@
+/* Global font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Headings / Navbar / Hero section */
+h1, h2, h3, h4, h5, h6,
+.navbar-brand, .btn, .navbar-nav span {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Make the navbar-toggler icon dark */
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+/* HERO */
+.hero-section {
+    background: rgba(255,255,255,0.45);
+    backdrop-filter: blur(14px);
+    border-radius: 25px;
+    padding: 60px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-text p {
+    color: #555;
+    margin: 20px 0;
+}
+
+.hero-image {
+    max-width: 90%;
+    border-radius: 50%;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* GLASS CARDS */
+.glass {
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+    transition: transform 0.25s;
+}
+
+.glass:hover {
+    transform: translateY(-6px);
+}
+
+/* MENU */
+.menu-card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.menu-info {
+    padding: 15px;
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-btn {
+    background: #111;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background: #000;
+}
